@@ -1,0 +1,105 @@
+html {
+    font-size: 10px;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  body {
+    background: hsl(148, 5%, 88%);
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+  }
+  #logo {
+    width: 10rem;
+    margin-right: -.5rem;
+    animation: logo-spin 3s 1s;
+    transition: all 0s;
+  }
+  #logo:hover {
+    transform: rotate(360deg);
+    transition: all 3s;
+  }
+  @keyframes logo-spin {
+    100% {transform: rotate(360deg);}
+  }
+  /*#umbrella-logo {
+    height: 100px;
+    width: 100px;
+    background: repeating-conic-gradient(from 0deg, snow 24deg 66deg, transparent 66deg 69deg, crimson 69deg 111deg, transparent 111deg 114deg);
+  }*/
+  
+  #title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+  h3 {
+    margin-top: 20px;
+    margin-bottom: -.5rem;
+    font-size: 3.5rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  .page-title {
+    letter-spacing: .35rem;
+  }
+  #img-div {
+    display: flex;
+    flex-direction: column;
+    background: crimson;
+    padding: 25px;
+    width: 90vw;
+    margin: auto;
+    align-items: center;
+  }
+  #image {
+    max-width: 100%;
+    border: 7px solid white;
+  }
+  #img-caption {
+    text-align: left;
+    padding-top: 15px;
+    color: white;
+    font-size: 1.8em;
+  }
+  .tribute-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 4rem 7.5vw 2rem 7.5vw;
+    background-color: crimson;
+    color: white;
+    padding: .4rem;
+  }
+  ul {
+    font-size: 1.8rem;
+    max-width: 80%;
+    margin: 0 auto 2rem auto;
+    line-height: 1.5em;
+  }
+  li {
+    margin: 1em;
+  }
+  @media (min-width: 950px) {
+    ul {
+      max-width: 75%;
+    }
+  }
+  p {
+    font-size: 1.8rem;
+    max-width: 90%;
+    text-align: center;
+    margin: 4rem auto 5rem auto;
+  }
+  a {
+    color: crimson;
+  }
+  
